@@ -1,0 +1,20 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "Learning how to test",
+  "main": "sum.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nnamdi Emefo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
