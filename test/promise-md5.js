@@ -6,6 +6,7 @@ describe('#promiseMd5()', function() {
   context('with string argument', function() {
     it('should compute MD5 hash', function() {
     
+    
       return promiseMd5('Glad Chinda')
         .then(function(hash) {
           // add some assertions
